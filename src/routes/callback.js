@@ -13,7 +13,7 @@ export async function get(request){
     return {
         status: 302,
         headers: {
-            location: '/'
+            location: '/profile'
         }
     }
 }
